@@ -192,7 +192,7 @@ contract('Lottery', function([deployer, user1, user2]){
 
         })
 
-        describe.only('When the answer is not revealed(Block limit is passed)', function () {
+        describe('When the answer is not revealed(Block limit is passed)', function () {
             // ganache에서는 컨트랙을 날리면 바로 block 하나가 생성됨으로 
             // await lottery.setAnswerForTest('0xab17b7e54b0ee749f38a478df0f485fc8a99c6aaa8d2aae379a09827aeb5301e', {from : deployer});
             // 컨트랙트 또는 다른 컨트랙트를 300번 날리는게 방법이 될 수 있고,
