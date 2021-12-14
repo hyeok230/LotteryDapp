@@ -1,4 +1,4 @@
-##### LotteryDapp
+# LotteryDapp
 solidity smart contract usecase <br/>
 
 ## +3번째 블록해쉬의 첫 두글자 맞추기 '0xab.....'<br/>
